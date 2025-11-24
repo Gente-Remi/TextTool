@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+"""
+Outil de traitement de texte.
+Permet de calculer la longueur, les mots ou le préfixe.
+"""
 
 
 def process_line(line):
