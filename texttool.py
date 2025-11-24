@@ -12,8 +12,13 @@ def process_line(line):
         return text.upper()
     if cmd == "lowercase":
         return text.lower()
+
     if command == 'prefix':
         print(text[:10])
+
+    if command == 'length':
+        print(len(text))
+
 
     return "Unknown command " + cmd
 
